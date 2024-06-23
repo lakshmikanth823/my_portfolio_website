@@ -1,0 +1,238 @@
+.html{
+    scroll-behavior: smooth; 
+}
+.body{
+    margin:0;
+    background-color:black;
+    color:white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar-left{
+    padding-left: 20px;
+    padding-top:15px;
+}
+.logo-image{
+    height:80px;
+    width:auto;
+    transition:transform 0.45 ease;
+}
+.logo-image:hover {
+    transform:scale(1.45);
+}
+.navbar-right{
+    padding-right:50px;
+    display:flex;
+    align-items: center;
+
+}
+.a-element{
+    padding:3px;
+    margin:10px;
+    border:2px solid transparent;
+    border: radius 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    transition::all 0.3s ease;
+}
+.a-element:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:100vh;
+
+}
+.home-left{
+    width:35%;
+    padding-left:60px;
+}
+.home-right{
+    width:65%;
+    text-align:left;
+    padding-right:20px;
+}
+.home-h1{
+    font-size:25px;
+    font-family:' Montserrat', sans-serif;
+    color:yellowgreen;
+
+}
+.home-p{
+    font-size:18px;
+    font-family:'Encode sans-serif', sans-serif;
+}
+.photo{
+    height:60vh;
+    width:auto;;
+     transition:transform 0.35 ease;
+}
+.photo:hover {
+    transform:scale(1.03);
+}
+.education{
+    padding :30px;
+    text-aligm:center;
+    
+}
+.sub-container{
+    display:flex;
+    flex-direction: row;
+    font-family:'uban', sans-serif;
+}
+.sub-card{
+    margin:15px;
+    border:2px solid yellowgreen;
+    width:500px;
+    font-size:medium;
+    padding:20px;
+}
+.list{
+    font-family:'times india roman', serif;
+    font-style:italic;
+    color:burlywood;
+    font-size: 17px;
+}
+.section-h1 {
+    font-family: 'MONO', sans-serif;
+    color: yellowgreen;
+    letter-spacing: 3px;
+    font-size: 41px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px; 
+}
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sub-card {
+    margin: 15px;
+    border: 2px solid yellowgreen;
+    width: 30%;
+    font-size: medium;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color:burlywood;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;   
+}
+
+.sub-card-h2 {
+    font-size: 22px;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+.github-link {
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color:yellowgreen;
+    text-decoration: underline;
+}
+.sps{
+    display:flex;
+    flex-direction:row;
+    height:120vh;
+}
+.skills {
+    padding: 20px;
+    width:45%;;
+}
+.projects{
+    width:55%;
+}
+.sub-card-p{
+    margin: 15px;
+    border: 2px solid yellowgreen;
+    width: 60%;
+    font-size: medium;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color:burlywood;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;   
+}
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #1b1b1b;
+    color: burlywood;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.skills li:hover {
+    transform: scale(1.2);
+}
+
+.list {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    color: burlywood;
+    text-align: left;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+.itac {
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+}
+
+
+.itac .sub-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.projects .sub-card-p:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.education .sub-card:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact{
+    text-align:center;
+}
+.contact-info{
+    font-family:'Encode sans',sans-serif;
+    font-size:20px;;
+}
+.icon-img{
+    height:40px;
+    padding:8px;
+}
